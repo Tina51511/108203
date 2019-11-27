@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="植物介绍"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="400sp"
+            android:text="水仙属（学名：Narcissus）是多年生单子叶草本植物，属天门冬目石蒜科植物。此属植物全世界共有800余种，其中的10余种具有极高的观赏价值。水仙原分布在中欧、地中海沿岸和北非地区，中国的水仙是多花水仙的一个变种，变种名为Narcissus tazetta var. chinensis。
+
+中国在1300多年前的唐代即有栽培，深得人们喜爱，是中国的十大名花之一。水仙在中国野生分布在东南沿海地区，以上海崇明区和福建漳州水仙最为有名，在数百年前，苏州、嘉定等地也出产水仙。别名有：中国水仙、凌波仙子、雅蒜、天蒜、天葱、俪兰、女星、女史花、雪中花等。 除了常见的白色水仙外，还有一个黄色的品种叫喇叭水仙。黄水仙在欧洲栽培历史悠久。19世纪30年代以来，荷兰、比利时、英国等国对黄水仙的育种和品种改良做了大量工作，目前栽培品种已达到26000个，每年还有新品种诞生。中国栽培黄水仙始于19世纪末。" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn"
+                android:text="闖關" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn"
+                android:text="相機" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
